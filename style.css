@@ -1,0 +1,159 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.container{
+width: 1140px;
+margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    }
+
+.menu-item ul li a:hover{
+  color: white;
+  transition: 0.6;
+  transform: scale(0.5);
+  transform: rotate(30%);
+  color: darkorange;
+  height: 20px; 
+  width: 20px;
+  line-height: 20px;
+}
+
+.menu-item ul li{
+    margin-left: 30px;
+    list-style: none;
+    display: flex;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.banner{
+    padding: 65px 0;
+    text-align:center;
+}
+
+.bt h1{
+ font-size: 45px;
+color: #0f2656;
+margin-bottom: 23px;
+font-size: 65px
+}
+
+.bt span{
+color:#008aff;
+
+}
+.bt p{
+    color: #555049;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+.pa{
+    display: flex;
+text-align: right;
+ }
+.project{
+padding: 20px 0;
+}
+.left{
+    text-align: right;
+    margin-right: 30px;
+}
+.right{
+    margin-left: 30px;
+}
+.left h4{
+font-size: 40px;
+color: #f15767;
+font-weight: 300px
+}
+.left p{
+    line-height: 25px;
+}
+.right h2{
+    text-align: left;
+    color: #0f2656;
+    font-size: 50px;
+    color: #blue;
+    font-weight: 700;
+    
+}
+
+.pa {
+text-align: center ;
+
+}
+.left, .right{
+flex-basis: 50%;
+}
+.service{
+padding: 70px 0 50px 0;
+display: flex;
+
+}
+
+.c1 {
+background: #fdebed;
+color: rgb(218, 42, 124);
+}
+.c2{
+    background-color: #ebf9f4;
+    color: rgba(28, 138, 240, 0.945);
+}
+.c3{
+background-color: #fff7e8;
+color: rgb(255, 134, 20);
+}
+.services{
+    display: flex;
+    margin: 30px;
+}
+.c1, .c2, .c3{
+
+    margin: 20px;
+    padding: 15px;
+}
+.c1 h3{
+font-size: 25px;
+margin-bottom: 11px;
+}
+.c2 h3{
+font-size: 25px;
+margin-bottom: 11px; 
+}
+
+ .c3 h3{
+font-size: 25px;
+padding-bottom: 11px;
+
+}
+.services{
+    margin-left: -32px;
+ 
+}
+.service{
+    margin: 30px;
+}
+
+ /* footer */
+
+.footer{
+
+padding: 40px 0;
+text-align: center;
+background-color: rgba(28, 138, 240, 0.945);
+    color: whitesmoke;
+}
+.container{
+font-size:19px;
+padding: 35px;
+
+}
